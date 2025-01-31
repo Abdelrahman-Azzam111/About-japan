@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Japan</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Header Section */
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #ff5722;
+            border-radius: 5px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px;
+            background: white;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #ff5722;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .container .card {
+            background: #f9f9f9;
+            flex: 1 1 calc(33.333% - 20px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .container .card img {
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .container .card h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Discover Japan</h1>
+        <p>A journey through Japan's culture, language, and traditions</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#language">Language</a></li>
+            <li><a href="#traditions">Traditions</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#travel">Travel</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Culture Section -->
+        <section id="culture">
+            <h2>Culture</h2>
+            <p>Japan’s culture is an intricate blend of tradition and modernity. It offers unique insights into both ancient customs and cutting-edge innovations.</p>
+            <div class="container">
+                <div class="card">
+                    <img src="Japanese Tea Ceremony.jpeg" alt="Japanese Tea Ceremony">
+                    <h3>Tea Ceremony</h3>
+                    <p>The tea ceremony, or "chanoyu," is a traditional ritual symbolizing harmony, respect, purity, and tranquility.</p>
+                </div>
+                <div class="card">
+                    <img src="Kabuki Theater.jpg" alt="Kabuki Theater">
+                    <h3>Kabuki Theater</h3>
+                    <p>Kabuki is a classical Japanese dance-drama, famous for its elaborate costumes and dramatic makeup.</p>
+                </div>
+                <div class="card">
+                    <img src="Origami.jpg" alt="Origami">
+                    <h3>Origami</h3>
+                    <p>Origami is the traditional art of paper folding, creating intricate designs such as cranes and flowers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Language Section -->
+        <section id="language">
+            <h2>Language</h2>
+            <p>The Japanese language uses a mix of three writing systems: Hiragana, Katakana, and Kanji.</p>
+            <ul>
+                <li><strong>Hiragana</strong>: The primary phonetic script used for native Japanese words.</li>
+                <li><strong>Katakana</strong>: Mainly used for foreign words and loanwords.</li>
+                <li><strong>Kanji</strong>: Chinese characters adapted into Japanese.</li>
+            </ul>
+            <p>Here’s an example of the same word written in all three scripts:</p>
+            <ul>
+                <li><strong>Hiragana:</strong> ありがとう (arigatou – thank you)</li>
+                <li><strong>Katakana:</strong> アリガトウ (arigatou – thank you)</li>
+                <li><strong>Kanji:</strong> 有難う (arigatou – thank you)</li>
+            </ul>
+        </section>
+
+        <!-- Traditions Section -->
+        <section id="traditions">
+            <h2>Traditions</h2>
+            <p>Japanese traditions are deeply rooted in history. Some highlights include:</p>
+            <ul>
+                <li><strong>Hanami</strong>: Viewing cherry blossoms in spring.</li>
+                <li><strong>Shinto Rituals</strong>: Religious ceremonies celebrating kami (spirits).</li>
+                <li><strong>New Year</strong>: A time of family reunions, traditional meals, and prayers for the year ahead.</li>
+            </ul>
+        </section>
+
+        <!-- Food Section -->
+        <section id="food">
+            <h2>Food</h2>
+            <p>Japanese cuisine is admired worldwide for its flavors and presentation.</p>
+            <div class="container">
+                <div class="card">
+                    <img src="Sushi.jpg" alt="Sushi">
+                    <h3>Sushi</h3>
+                    <p>A dish combining vinegared rice with seafood, vegetables, or egg.</p>
+                </div>
+                <div class="card">
+                    <img src="Ramen.jpeg" alt="Ramen">
+                    <h3>Ramen</h3>
+                    <p>Noodles served in a savory broth, topped with pork, eggs, and vegetables.</p>
+                </div>
+                <div class="card">
+                    <img src="Tempura.jpg" alt="Tempura">
+                    <h3>Tempura</h3>
+                    <p>Seafood or vegetables lightly battered and deep-fried.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel Section -->
+        <section id="travel">
+            <h2>Travel</h2>
+            <p>Japan is home to iconic destinations that attract travelers worldwide.</p>
+            <ul>
+                <li><strong>Tokyo</strong>: A modern metropolis blending technology and tradition.</li>
+                <li><strong>Kyoto</strong>: Renowned for its historic temples and gardens.</li>
+                <li><strong>Mount Fuji</strong>: A UNESCO World Heritage site and Japan’s tallest mountain.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Discover Japan. All rights reserved. | <a href="#">Contact Us</a></p>
+    </footer>
+</body>
+</html>
